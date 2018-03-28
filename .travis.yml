@@ -1,0 +1,4 @@
+# https://docs.travis-ci.com/user/languages/c/
+language: c
+sudo: false
+script: git clone --recurse-submodules https://github.com/dryproject/drylib-dev.git
