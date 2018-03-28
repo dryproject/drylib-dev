@@ -1,0 +1,60 @@
+[submodule "drylang"]
+	path = tools/drylang
+	url = ../drylang
+[submodule "drylib.org"]
+	path = sites/drylib.org
+	url = ../drylib.org
+[submodule "drylib"]
+	path = source/drylib
+	url = ../drylib
+[submodule "drylib.c"]
+	path = targets/drylib.c
+	url = ../drylib.c
+[submodule "drylib.cpp"]
+	path = targets/drylib.cpp
+	url = ../drylib.cpp
+[submodule "drylib.d"]
+	path = targets/drylib.d
+	url = ../drylib.d
+[submodule "drylib.dart"]
+	path = targets/drylib.dart
+	url = ../drylib.dart
+[submodule "drylib.ex"]
+	path = targets/drylib.ex
+	url = ../drylib.ex
+[submodule "drylib.go"]
+	path = targets/drylib.go
+	url = ../drylib.go
+[submodule "drylib.java"]
+	path = targets/drylib.java
+	url = ../drylib.java
+[submodule "drylib.jl"]
+	path = targets/drylib.jl
+	url = ../drylib.jl
+[submodule "drylib.js"]
+	path = targets/drylib.js
+	url = ../drylib.js
+[submodule "drylib.kt"]
+	path = targets/drylib.kt
+	url = ../drylib.kt
+[submodule "drylib.lisp"]
+	path = targets/drylib.lisp
+	url = ../drylib.lisp
+[submodule "drylib.lua"]
+	path = targets/drylib.lua
+	url = ../drylib.lua
+[submodule "drylib.ocaml"]
+	path = targets/drylib.ocaml
+	url = ../drylib.ocaml
+[submodule "drylib.php"]
+	path = targets/drylib.php
+	url = ../drylib.php
+[submodule "drylib.py"]
+	path = targets/drylib.py
+	url = ../drylib.py
+[submodule "drylib.rb"]
+	path = targets/drylib.rb
+	url = ../drylib.rb
+[submodule "drylib.rs"]
+	path = targets/drylib.rs
+	url = ../drylib.rs
