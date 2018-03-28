@@ -53,35 +53,35 @@ Repositories
 Websites
 --------
 
-* `dryproject/drylib.org <drylib.org>`__
+* `dryproject/drylib.org <https://github.com/dryproject/drylib.org>`__
 
 Source Code
 -----------
 
-* `dryproject/drylib <drylib>`__
+* `dryproject/drylib <https://github.com/dryproject/drylib>`__
 
 Target Languages
 ----------------
 
-* `dryproject/drylib.c <drylib.c>`__
-* `dryproject/drylib.cpp <drylib.cpp>`__
-* `dryproject/drylib.d <drylib.d>`__
-* `dryproject/drylib.dart <drylib.dart>`__
-* `dryproject/drylib.ex <drylib.ex>`__
-* `dryproject/drylib.go <drylib.go>`__
-* `dryproject/drylib.java <drylib.java>`__
-* `dryproject/drylib.jl <drylib.jl>`__
-* `dryproject/drylib.js <drylib.js>`__
-* `dryproject/drylib.kt <drylib.kt>`__
-* `dryproject/drylib.lisp <drylib.lisp>`__
-* `dryproject/drylib.lua <drylib.lua>`__
-* `dryproject/drylib.ocaml <drylib.ocaml>`__
-* `dryproject/drylib.php <drylib.php>`__
-* `dryproject/drylib.py <drylib.py>`__
-* `dryproject/drylib.rb <drylib.rb>`__
-* `dryproject/drylib.rs <drylib.rs>`__
+* `dryproject/drylib.c <https://github.com/dryproject/drylib.c>`__
+* `dryproject/drylib.cpp <https://github.com/dryproject/drylib.cpp>`__
+* `dryproject/drylib.d <https://github.com/dryproject/drylib.d>`__
+* `dryproject/drylib.dart <https://github.com/dryproject/drylib.dart>`__
+* `dryproject/drylib.ex <https://github.com/dryproject/drylib.ex>`__
+* `dryproject/drylib.go <https://github.com/dryproject/drylib.go>`__
+* `dryproject/drylib.java <https://github.com/dryproject/drylib.java>`__
+* `dryproject/drylib.jl <https://github.com/dryproject/drylib.jl>`__
+* `dryproject/drylib.js <https://github.com/dryproject/drylib.js>`__
+* `dryproject/drylib.kt <https://github.com/dryproject/drylib.kt>`__
+* `dryproject/drylib.lisp <https://github.com/dryproject/drylib.lisp>`__
+* `dryproject/drylib.lua <https://github.com/dryproject/drylib.lua>`__
+* `dryproject/drylib.ocaml <https://github.com/dryproject/drylib.ocaml>`__
+* `dryproject/drylib.php <https://github.com/dryproject/drylib.php>`__
+* `dryproject/drylib.py <https://github.com/dryproject/drylib.py>`__
+* `dryproject/drylib.rb <https://github.com/dryproject/drylib.rb>`__
+* `dryproject/drylib.rs <https://github.com/dryproject/drylib.rs>`__
 
 Tools & Scripts
 ---------------
 
-* `dryproject/drylang <drylang>`__
+* `dryproject/drylang <https://github.com/dryproject/drylang>`__
