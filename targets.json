@@ -1,0 +1,19 @@
+{
+  "c":      {"c":      "C"},
+  "cpp":    {"cpp":    "C++"},
+  "d":      {"d":      "D"},
+  "dart":   {"dart":   "Dart"},
+  "ex":     {"elixir": "Elixir"},
+  "go":     {"go":     "Go"},
+  "java":   {"java":   "Java"},
+  "jl":     {"julia":  "Julia"},
+  "js":     {"js":     "JS"},
+  "kt":     {"kotlin": "Kotlin"},
+  "lisp":   {"lisp":   "Common Lisp"},
+  "lua":    {"lua":    "Lua"},
+  "ocaml":  {"ocaml":  "OCaml"},
+  "php":    {"php":    "PHP"},
+  "py":     {"python": "Python"},
+  "rb":     {"ruby":   "Ruby"},
+  "rs":     {"rust":   "Rust"}
+}
