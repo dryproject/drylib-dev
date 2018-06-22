@@ -5,10 +5,18 @@ VERSION := $(shell cat VERSION)
 
 SOURCES :=
 
-TARGETS :=
+TARGETS := drylib.json
 
 %.html: %.rst
 	$(PANDOC) -o $@ -t html5 -s $<
+
+drylib.json: tools/genjson.rb
+	tools/genjson.rb > $@
+
+genjson: drylib.json
+
+genrst: drylib.json
+	tools/genrst.rb $<
 
 all: build
 
@@ -34,5 +42,6 @@ distclean: clean
 mostlyclean: clean
 
 .PHONY: check dist install clean distclean mostlyclean
+.PHONY: genrst
 .SECONDARY:
 .SUFFIXES:

@@ -1,8 +1,20 @@
 #!/usr/bin/env ruby
+require 'fileutils'
 require 'json'
 require 'pathname'
 
 SOURCE_DIR = Pathname('source/drylib')
+
+def pluralize_symbol_type(symbol_type)
+  case symbol_type
+    when :module   then :modules
+    when :type     then :types
+    when :constant then :constants
+    when :function then :functions
+    when :alias    then :aliases
+    else raise "unknown symbol type #{symbol_type}"
+  end
+end
 
 def determine_symbol_type(symbol_name)
   return :alias if SOURCE_DIR.join("#{symbol_name}.dry").symlink?
@@ -22,16 +34,6 @@ def determine_symbol_type(symbol_name)
   end
 end
 
-def pluralize_symbol_type(symbol_type)
-  case symbol_type
-    when :type     then :types
-    when :constant then :constants
-    when :function then :functions
-    when :alias    then :aliases
-    else raise "unknown symbol type #{symbol_type}"
-  end
-end
-
 def module_names
   prefix_len = SOURCE_DIR.to_s.size + 1
   suffix_len = '/.drymodule'.size
@@ -48,7 +50,7 @@ def path_to_name(path)
 end
 
 def link_to(type, name)
-  name.gsub!('?', '%3F')
+  name = name.gsub('?', '%3F')
   case type
     when :module then "https://drylib.org/#{name}/"
     else "https://drylib.org/#{name}.html"
