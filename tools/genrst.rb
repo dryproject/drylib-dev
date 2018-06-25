@@ -48,5 +48,6 @@ input['symbols'].each do |symbol_name, symbol_type|
   File.write(YASHA_FILE, JSON.pretty_generate(symbol_info) + "\n")
   yasha_cmd = "yasha --mode=pedantic --keep-trailing-newline -v #{YASHA_FILE} -o #{rst_document} #{j2_template}"
   puts yasha_cmd
+  FileUtils.mkdir_p rst_document.dirname
   `#{yasha_cmd}`
 end
