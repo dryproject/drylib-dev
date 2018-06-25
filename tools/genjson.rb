@@ -23,9 +23,10 @@ def determine_symbol_type(symbol_name)
     when "text/ascii/string", "text/utf8/string" then :type
     else case
       when symbol_name.end_with?("?") then :function
-      when symbol_name.start_with?("ffi/libc/") then :function
+      when symbol_name.start_with?("ffi/c/") then :function
       when symbol_name.start_with?("logic/") then :function
       when symbol_name.start_with?("math/") then :function
+      when symbol_name.start_with?("std/si/") then :constant
       when symbol_name.start_with?("text/printf/") then :function
       when symbol_name.start_with?("text/ascii/") then :function
       when symbol_name.start_with?("text/utf8/") then :function
